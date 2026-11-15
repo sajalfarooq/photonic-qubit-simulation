@@ -1,6 +1,8 @@
 # Photonic Qubit Simulation
 
-The notebook follows a Gaussian beam through free space and a thin lens, then models a polarization-encoded qubit with Jones matrices.
+A photonic qubit can encode information in two polarization states of light, horizontal and vertical. This project uses a Python notebook to explore two aspects of an ideal optical setup: how a Gaussian beam spreads and focuses, and how wave plates change the polarization that carries the qubit.
+
+The notebook compares free-space propagation with thin-lens focusing, then uses Jones matrices to show how a half-wave plate swaps horizontal and vertical polarization and how a quarter-wave plate turns horizontal input into circular polarization. The plots connect these transformations to the beam radius, the trajectory of the electric field, and the probabilities of measuring horizontal or vertical polarization.
 
 ## Results
 
